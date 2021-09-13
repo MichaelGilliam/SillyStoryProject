@@ -65,7 +65,7 @@ function result() {
   // added /14 for lbs to stone calculation, and added -32 * 0.5556 for F to C calculation
   // added 2 new story.replace for the tempature and weight varibles
   if(document.getElementById("uk").checked) {
-    let weight = Math.round(300 / 14) + ' stone',
+    let weight = Math.round(300 / 14) + ' stone';
     var temperature =  Math.round((94 - 32) * 0.5556) + ' centigrade';
          
    newStory = newStory.replace('94 fahrenheit', temperature);
